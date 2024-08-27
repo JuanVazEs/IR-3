@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from nltk.tokenize import word_tokenize
 from collections import Counter
 
 # Graficar la ley de Zipf
