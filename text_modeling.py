@@ -6,6 +6,9 @@ from gensim.models import Phrases
 import matplotlib.pyplot as plt
 from collections import Counter
 
+# Importar tokenize_and_preprocess desde text_processing.py
+from text_processing import tokenize_and_preprocess
+
 def create_qgrams(text, q=3):
     qgrams = []
     for word in text:
